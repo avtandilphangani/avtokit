@@ -1,0 +1,15 @@
+{
+    "name": "telaveli",
+    "version": "0.0.1",
+    "type": "theme",
+    "title": "Telaveli",
+    "description": "",
+    "license": "",
+    "authors": [
+        {
+            "name": "Avtandil Pangani",
+            "email": "avto@telaveli.ge",
+            "homepage": ""
+        }
+    ]
+}
