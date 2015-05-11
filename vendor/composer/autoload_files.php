@@ -7,8 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     $vendorDir . '/guzzlehttp/streams/src/functions.php',
-    $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     $vendorDir . '/ircmaxell/password-compat/lib/password.php',
     $vendorDir . '/guzzlehttp/guzzle/src/functions.php',
+    $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     $vendorDir . '/nikic/php-parser/lib/bootstrap.php',
 );
