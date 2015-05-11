@@ -28,9 +28,9 @@ INSERT INTO `@system_widget` (`id`, `roles`, `type`, `title`, `position`, `prior
 (2, NULL, 'widget.user.login', 'Login', 'sidebar', 0, 1, '', NULL, '{"redirect.login":"","redirect.logout":""}');
 
 INSERT INTO `@system_widget` (`id`, `roles`, `type`, `title`, `position`, `priority`, `status`, `pages`, `menu_items`, `data`) VALUES
-(3, NULL, 'widget.text', 'Copyright', 'footer', 0, 1, '', NULL, '{"content":"Powered by <a href=\\"\\">Pagekit<\\/a>"}');
+(3, NULL, 'widget.text', 'Copyright', 'footer', 0, 1, '', NULL, '{"show_title":"0","content":"&copy <a href=\"http:\/\/avto.telaveli.ge\">\u10d0\u10d5\u10d7\u10dd \u10e4\u10d0\u10dc\u10d2\u10d0\u10dc\u10d8, 2015<\/a>"}');
 
 INSERT INTO `@system_option` (`name`, `value`, `autoload`) VALUES
 ('system:app.frontpage', '"@page/id?id=1"', 1);
 
-UPDATE `@system_user` SET `data`='{\"dashboard\":{\"1\":{\"show\":\"login\",\"count\":\"5\",\"type\":\"widget.user\",\"widget\":{},\"widget.type\":{}},\"53183c730b5f4\":{\"location\":\"Hamburg, Germany\",\"id\":\"2827552\",\"units\":\"metric\",\"type\":\"widget.weather\",\"widget\":{},\"widget.type\":{}},\"53183c968c9e2\":{\"title\":\"Pagekit\",\"url\":\"http:\\/\\/pagekit.com\\/blog\\/feed\",\"count\":\"5\",\"content\":\"1\",\"type\":\"widget.feed\"}}}' WHERE `id`=1;
+UPDATE `@system_user` SET `data`='{\"dashboard\":{\"1\":{\"show\":\"login\",\"count\":\"5\",\"type\":\"widget.user\",\"widget\":{},\"widget.type\":{}},\"53183c730b5f4\":{\"location\":\"Tbilisi\",\"id\":\"2827552\",\"units\":\"metric\",\"type\":\"widget.weather\",\"widget\":{},\"widget.type\":{}},\"53183c968c9e2\":{\"title\":\"Pagekit\",\"url\":\"http:\\/\\/pagekit.com\\/blog\\/feed\",\"count\":\"5\",\"content\":\"1\",\"type\":\"widget.feed\"}}}' WHERE `id`=1;
