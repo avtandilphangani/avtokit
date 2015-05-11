@@ -1,6 +1,6 @@
 # Pagekit
 
-კომპონეტებით აწყობილი, მოდულური და მსუბუქი  CMS
+Symfony-ს კომპონეტებზე აწყობილი, მოდულური და მსუბუქი  CMS
 
 * [Homepage](http://pagekit.com) - გაიგეთ მეტი  Pagekit-ზე
 * [@pagekit](https://twitter.com/pagekit) - სიახლეები Twitter-ზე
