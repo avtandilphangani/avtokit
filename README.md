@@ -1,5 +1,7 @@
 # Pagekit
 
+[![Join the chat at https://gitter.im/avtandilphangani/avtokit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/avtandilphangani/avtokit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Symfony-ს კომპონეტებზე აწყობილი, მოდულური და მსუბუქი  CMS
 
 * [Homepage](http://pagekit.com) - გაიგეთ მეტი  Pagekit-ზე
