@@ -1,54 +1,55 @@
 # Pagekit
 
-A modular and lightweight CMS built with Symfony components
+კომპონეტებით აწყობილი, მოდულური და მსუბუქი  CMS
 
-* [Homepage](http://pagekit.com) - Learn more about Pagekit
-* [@pagekit](https://twitter.com/pagekit) - Get the latest buzz on Twitter
+* [Homepage](http://pagekit.com) - გაიგეთ მეტი  Pagekit-ზე
+* [@pagekit](https://twitter.com/pagekit) - სიახლეები Twitter-ზე
 * [Issues](http://github.com/pagekit/pagekit/issues) - Report bugs
-* [Google+](https://plus.google.com/communities/104125443335488004107) - Share news and latest work
-* [Google Group](https://plus.google.com/communities/104125443335488004107) - Help each other
-* [Developer Chat](https://www.hipchat.com/giPcIKmrx) - Every work day between 8:00 and 18:00 UTC
+* [Google+](https://plus.google.com/communities/104125443335488004107) - სიახლეები და ბოლო ნამუშევრები
+* [Google Group](https://plus.google.com/communities/104125443335488004107) - სხვა დახმარება
+* [Developer Chat](https://www.hipchat.com/giPcIKmrx) - ყოველ სამუშაო დღეს 8:00-დან  18:00-მდე ევროპით
 * IRC: #pagekit on irc.freenode.net
 
-## Getting started
+## დასაწყისი
 
-Download the [latest release](http://www.pagekit.com) and extract the archive, then copy the extracted folder to your webserver.
-Create a database for Pagekit.
-Run the Pagekit installation by accessing the URL where you uploaded the Pagekit files in a browser.
+ჩამოქაჩეთ [უახლესი release](http://www.pagekit.com) და გახსენით არქივი, შემდეგ გასნილი პაპკა ატვირთეთ თქვენს სერვერზე.
+    (თუ შესაძლებელია, სჯობია ჯერ არქივი აიტვივთოს სერვერზე და შემდგომ იქ გაიხსნას, დროს უფრო ნაკლებს დაიკავბს)   
+შექმენით მონაცემთა ბაზა Pagekit-სათვის.
+გაუშვით  Pagekit-ის ინსტალაცია ბროუზერში იმ მისამართის (URL) გამოძახებით, სადაც ატვირთეთ  Pagekit-ის ფაილები.
 
 
-## Developers
+## დიველოპერებისათვის
 
-First of all, install [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix).
+ყველაზე უწინ დააინსტალირე  [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix).
 
-If you haven't done so already, clone the Pagekit git repo.
+თუ ჯერ არ გაქვს, გააკეთე  Pagekit-ის ქლონი  git რეპოზიტორიდან.
 ```
-git clone git://github.com/pagekit/pagekit.git
+git clone https://github.com/avtandilphangani/avtokit.git
 ```
 
-To install the dependencies of the project, navigate to the cloned directory and run the composer `install` command
+დააინსტალირე ყველა კავშირი (დიფენდესი) მიმდინაე პროექტისათვის, ამისათვის პროექტის ძირეულ პაპკაში გაუშვი  composer `install`
 ```
 composer install
-#or if you don't have composer installed globally:
+#ან თუ არ გაქვთ  composer გლობალურად დაინსტალირებული, მაშინ:
 php path/to/composer.phar install
 ```
 
-To update Pagekit, you need to pull the Pagekit git repo and run the composer `update` command
+განაახლე Pagekit, ჩამოქაჩე რეპოზიტორინდან და განახლე  composer `update ბრძანებით
 
 ```
 git pull
 composer update
 ```
 
-You may also clear the `app/cache` folder.
+თქვენ ასევე უნდა გაასუფთაოთ  `app/cache` პაპკა.
 
 ### CLI
 
-Pagekit offers a set of commands to run usual tasks on the command line. You can see the available commands with
+Pagekit გვთავაზობს რიგი ამოცანების და ბრანებების გადაწყვეტას ტერმინალის ბრძანებიდან. თქვენ შეგიძლიან შესაძლო ბრაძნებების ნახვა შემდეგნაირად
 ```
 ./pagekit --help
 ```
-You can find further information about the command line tools in the [pagekit documentation](http://www.pagekit.com/docs/quickstart)
+სხვა ყველა დანარჩენი ინფორმაციას მოიძევთ ოფიციალურ საიტზე  [pagekit documentation](http://www.pagekit.com/docs/quickstart)
 
 
 ## Copyright and license
