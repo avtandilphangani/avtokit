@@ -1,3 +1,4 @@
+DirectoryIndex index.php
 # Restricted access to files
 <FilesMatch "\.(cache|db|log|po|pot|sql|razr)$">
     Order allow,deny
