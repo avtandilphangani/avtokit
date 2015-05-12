@@ -25,3 +25,4 @@ node_modules
 .idea
 .gitignore
 npm-d*
+idea_te*
